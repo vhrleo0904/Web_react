@@ -1,0 +1,16 @@
+.counter-style {
+	font-size: 50pt;
+
+	div {
+		font-size: 1.2em;  // ?rem은 html 기준의 ?배
+	}
+
+	input {
+		font-size: 1.2em;
+		width: 500px;
+	}
+
+	button {
+		font-size: 1.2em;   // ?em은 상위 객체 기준의 ?배
+	}
+}

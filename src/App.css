@@ -5,6 +5,11 @@
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
+  /*
+   vh : %와 같은 개념(보이는 것의 ?% = ?vh)
+   vw : 상등
+   vmin : height와 width 중 더 작은 값(vmin = height < widht ? height : width)
+   */
   pointer-events: none;
 }
 
